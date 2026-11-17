@@ -60,7 +60,16 @@
 | :--- | :--- |
 | [PRN](https://github.com/firstsm41/portfolio/tree/main/projects/prn) | 필요할 때 꺼내 쓰는 모바일 문제은행 |
 | [SmartWall](https://github.com/firstsm41/portfolio/tree/main/projects/smartwall) | 병원 대기실 TV 콘텐츠·전원·예약 관리 |
+| [리쥬베리 워크스페이스](https://github.com/firstsm41/portfolio/tree/main/projects/rejuberry) | 근무표·연차·오버타임·인사·재고 운영 도구 |
+| [모아봄](https://github.com/firstsm41/portfolio/tree/main/projects/moabom) | 공유 캘린더·기록과 오프라인 일정 동기화 |
+| [전지천 퀴즈](https://github.com/firstsm41/portfolio/tree/main/projects/jeonjicheon-quiz) | QR 참여와 문항별 응답 실시간 집계 |
 | [TeaTable POS](https://github.com/firstsm41/teatable_pos) | 카페 메뉴·주문 관리 시스템 |
+| [Medicine WMS](https://github.com/firstsm41/portfolio/tree/main/projects/medicine-wms) | 의약품 창고 관리 CLI · 로그인·회원관리 담당 |
+| [All Live Young](https://github.com/firstsm41/portfolio/tree/main/projects/all-live-young) | 의약품 WMS 웹 서비스 · 회원관리·고객센터 담당 |
+| [CROFLE 프론트엔드](https://github.com/firstsm41/portfolio/tree/main/projects/crofle) | 라이브 크라우드펀딩 · 로그인·프론트엔드 담당 |
+| [CROFLE 백엔드](https://github.com/firstsm41/portfolio/tree/main/projects/live-crowdfunding-backend) | 회원·JWT·Redis·소셜 로그인 인증 API |
+
+<sub>CROFLE 프론트엔드와 백엔드는 같은 팀 프로젝트를 담당 영역별로 소개합니다.</sub>
 
 [프로젝트 자세히 보기 →](https://github.com/firstsm41/portfolio)
 
