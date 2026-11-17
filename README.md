@@ -1,85 +1,120 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="SungMin Choi — Software Developer" />
+  <img src="assets/header.png" width="100%" alt="SungMin Choi — Thoughtful code. Useful software." />
 </p>
 
 <p align="center">
-  <strong>기획부터 설계·개발·배포·운영까지, 실제 사용자가 쓰는 서비스를 만듭니다.</strong>
+  <a href="https://github.com/firstsm41/portfolio"><strong>Portfolio</strong></a>
+  &nbsp; / &nbsp;
+  <a href="#selected-work"><strong>Selected work</strong></a>
+  &nbsp; / &nbsp;
+  <a href="mailto:firstsm41@naver.com"><strong>Contact</strong></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/firstsm41/portfolio"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-172B45?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
-  <a href="mailto:firstsm41@naver.com"><img alt="Email" src="https://img.shields.io/badge/CONTACT-167D70?style=for-the-badge&amp;logo=maildotru&amp;logoColor=white" /></a>
-</p>
+<br />
 
-### 안녕하세요, 최성민입니다.
+## 최성민 · SungMin Choi
 
-화면을 구현하는 데서 시작해 데이터 구조, 권한, 배포와 운영 문제까지 이어서 해결합니다.
-사용 환경의 제약을 이해하고, 실제 사용 과정에서 발견한 문제를 개선하는 일을 좋아합니다.
+**간호학 전공에서 시작해, 현장의 문제를 웹 서비스로 해결합니다.**
 
-- **서비스 구현** — 문제 정의부터 사용자가 쓰는 화면과 운영 도구까지
-- **데이터와 권한** — PostgreSQL, Supabase의 RLS·RPC·트리거를 활용한 설계
-- **운영 개선** — 테스트, 상태 보고와 자동화로 반복되는 문제 줄이기
+문제은행, 병원 대기실 TV 관리, 카페 POS처럼 사용 환경이 구체적인 서비스를 만듭니다.
+기획과 화면 구현에 더해 데이터 구조, 권한, 테스트와 운영까지 직접 다룹니다.
 
-### Selected work
+| 만드는 것 | 집중하는 문제 |
+| :--- | :--- |
+| **사용자를 위한 웹 서비스** | 모바일 사용성, 검색, 실제 업무 흐름 |
+| **데이터를 다루는 시스템** | 문항 검수, DB 권한, 채점과 변경 이력 |
+| **현장에서 운영하는 도구** | 내부망 기기 제어, 상태 보고, 반복 작업 자동화 |
+
+<br />
+
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### PRN · 모바일 문제은행
+### 01 / PRN
+**필요할 때 꺼내 쓰는 모바일 문제은행**
 
-<a href="https://github.com/firstsm41/portfolio/tree/main/projects/prn"><img src="https://raw.githubusercontent.com/firstsm41/portfolio/main/projects/prn/images/student.png" alt="PRN 문제은행 학생 화면" width="100%" /></a>
+<a href="https://github.com/firstsm41/portfolio/tree/main/projects/prn"><img src="https://raw.githubusercontent.com/firstsm41/portfolio/main/projects/prn/images/student.png" width="100%" alt="PRN 학생용 문제 풀이 화면" /></a>
 
-외과 시험 문항 **1,600여 개**를 풀고 검색하는 모바일 문제은행.
+외과 시험 문항 **1,600여 개**를 한 문제씩 풀고 검색하는 서비스.
 
-자료 파싱 → 문항 검수 → 공개 흐름과 DB 권한·채점·수정 이력을 구현했습니다.
+- 흩어진 자료를 **파싱 → 검수 → 공개**하는 문항 관리 흐름
+- 한국어 검색 정규화와 DB 기반 권한·채점·수정 이력
+- 단위·SQL·브라우저 E2E 테스트
 
-`Next.js` `TypeScript` `PostgreSQL` `Supabase`
+<sub>Next.js · TypeScript · Supabase · PostgreSQL</sub>
 
-[설계·구현 이야기 →](https://github.com/firstsm41/portfolio/tree/main/projects/prn)
+[프로젝트 살펴보기 →](https://github.com/firstsm41/portfolio/tree/main/projects/prn)
 
 </td>
 <td width="50%" valign="top">
 
-#### 스마트월 · 병원 TV 관리
+### 02 / SmartWall
+**병원 대기실 TV를 웹에서 관리하기**
 
-<a href="https://github.com/firstsm41/portfolio/tree/main/projects/smartwall"><img src="https://raw.githubusercontent.com/firstsm41/portfolio/main/projects/smartwall/images/hero.png" alt="스마트월 관리 화면과 TV 화면" width="100%" /></a>
+<a href="https://github.com/firstsm41/portfolio/tree/main/projects/smartwall"><img src="https://raw.githubusercontent.com/firstsm41/portfolio/main/projects/smartwall/images/hero.png" width="100%" alt="스마트월 관리자와 병원 TV 화면" /></a>
 
-병원 대기실 **TV 9대**의 콘텐츠·전원·예약을 웹에서 관리.
+대기실 **TV 9대**의 콘텐츠·전원·예약을 관리하는 서비스.
 
-Python 도우미로 내부망 TV를 제어하고, 브라우저 영상 변환으로 4K 영상 5개의 용량을 **208.7MB → 59.7MB**로 줄였습니다.
+- Python 도우미를 통한 **병원 내부망 TV 제어**
+- TV 상태 보고로 브라우저 저장 공간 문제 추적
+- 영상 5개 용량 **208.7MB → 59.7MB**로 축소
 
-`React` `TypeScript` `Python` `Supabase`
+<sub>React · TypeScript · Supabase · Python</sub>
 
-[설계·구현 이야기 →](https://github.com/firstsm41/portfolio/tree/main/projects/smartwall)
+[프로젝트 살펴보기 →](https://github.com/firstsm41/portfolio/tree/main/projects/smartwall)
 
 </td>
 </tr>
 </table>
 
-### More projects
+### 03 / TeaTable POS
 
-| 프로젝트 | 하는 일 | 주요 기술 |
+카페의 **메뉴 관리 → 주문 접수 → 주문 확인·완료** 흐름을 연결하는 POS.
+매장 코드 기반 인증과 주문 화면을 구현했습니다.
+
+`Next.js` `TypeScript` `Supabase` `Zustand`
+
+[소스 코드 →](https://github.com/firstsm41/teatable_pos) &nbsp; · &nbsp; [서비스 →](https://teatable-pos.vercel.app)
+
+<br />
+
+## More work
+
+| 프로젝트 | 설명 | 역할·기술 |
 | :--- | :--- | :--- |
-| [티테이블 POS](https://github.com/firstsm41/teatable_pos) | 카페 메뉴·주문 관리와 주문 완료 처리 | Next.js · TypeScript · Supabase |
-| [실시간 퀴즈](https://github.com/firstsm41/jeonjicheon-quiz) | QR 참여와 문항별 응답 현황 실시간 집계 | JavaScript · Supabase |
-| [Medicine WMS](https://github.com/firstsm41/medicine-wms) | 의약품 창고 입고·출고·재고 관리 팀 프로젝트 | Java · MySQL |
-| [All Live Young](https://github.com/ceo92/all-live-young) | 의약품 WMS 팀 프로젝트 | Java |
+| [실시간 퀴즈](https://github.com/firstsm41/jeonjicheon-quiz) | QR로 참여하고 문항별 응답을 실시간으로 집계 | 개인 프로젝트 · JavaScript · Supabase |
+| [Medicine WMS](https://github.com/firstsm41/medicine-wms) | 의약품 창고의 입고·출고·재고를 관리하는 CLI | 팀 프로젝트 · Java · MySQL |
+| [All Live Young](https://github.com/ceo92/all-live-young) | 의약품 창고 관리 시스템 | 팀 프로젝트 · Java |
+| [Live Crowdfunding](https://github.com/ssg-ic-project/Live-CrowdFunding-Frontend) | 라이브 크라우드펀딩 프론트엔드 | 팀 프로젝트 · Vue |
 
-### Tools I use
+<br />
+
+## Toolbox
 
 <p>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" />
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-111827?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/Java-E76F00?style=flat-square" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" />
-  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-163B32?style=flat-square&amp;logo=supabase&amp;logoColor=3FCF8E" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-171717?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Vue-254C40?style=flat-square&amp;logo=vuedotjs&amp;logoColor=4FC08D" alt="Vue" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-996633?style=flat-square" alt="Java" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Supabase-173E35?style=flat-square&amp;logo=supabase&amp;logoColor=3FCF8E" alt="Supabase" />
 </p>
+
+| 영역 | 프로젝트에서 사용한 도구 |
+| :--- | :--- |
+| **Web** | TypeScript · JavaScript · React · Next.js · Vue |
+| **Data & Backend** | PostgreSQL · MySQL · Supabase · Java · Python |
+| **Delivery** | Git · Vercel · 테스트 · 상태 보고 |
 
 ---
 
 <p align="center">
-  <a href="https://github.com/firstsm41/portfolio">프로젝트 자세히 보기</a> · <a href="mailto:firstsm41@naver.com">firstsm41@naver.com</a>
+  <strong>실제 사용 환경에서 출발하고, 운영하면서 개선합니다.</strong><br />
+  <a href="https://github.com/firstsm41/portfolio">포트폴리오</a> &nbsp; · &nbsp;
+  <a href="mailto:firstsm41@naver.com">firstsm41@naver.com</a>
 </p>
