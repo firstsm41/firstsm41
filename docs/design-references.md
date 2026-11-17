@@ -28,5 +28,18 @@
 ## 파일
 
 - `README.md`: 프로필 본문
-- `assets/header.png`: 새로 제작한 배너
+- `assets/header.svg`: 프로필용 환영 배너
+- `assets/header.png`: 이전 포트폴리오형 배너 (프로필 본문에는 표시하지 않음)
 - `docs/profile-settings.md`: GitHub 계정 화면에 적용할 설정 안내
+
+## 프로필형 구성으로 조정
+
+추가로 [Madplay](https://github.com/madplay/madplay),
+[Doputer](https://github.com/doputer/doputer),
+[Capsule Render 작성자](https://github.com/kyechan99/kyechan99)의 실제 README도 확인했습니다.
+사용자가 제공한 예시처럼 환영 배너 → 짧은 자기소개 → 기술 배지 → 활동 통계 → 짧은 프로젝트 링크 순서로 바꿨습니다.
+긴 구현 설명과 화면 캡처는 포트폴리오 저장소에서 확인하게 했습니다.
+
+통계는 [GitHub Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards)의 공개 API를 사용합니다.
+적용 시 실제 firstsm41의 SVG 응답을 확인했으며, 인증 토큰·비공개 저장소 정보나 별도의 GitHub Actions는 사용하지 않습니다.
+공개 활동 집계와 GitHub 계정 전체 기여 수는 다를 수 있습니다.

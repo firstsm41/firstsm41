@@ -1,18 +1,10 @@
 # 계정 프로필에 표시하기
 
-## 1. 저장소 이름
+## 1. 프로필 README 연결 완료
 
-GitHub 프로필 README는 공개 저장소 이름이 계정명과 같아야 계정 Overview 상단에 표시됩니다.
-현재 콘텐츠가 저장된 `profile` 저장소 이름을 **firstsm41**로 바꿉니다.
-
-1. https://github.com/firstsm41/profile/settings 접속
-2. General → Repository name에 `firstsm41` 입력
-3. Rename으로 저장
-4. https://github.com/firstsm41 새로고침
-5. GitHub가 프로필 공유 안내를 표시하면 `Share to profile` 선택
-
-이름을 바꾸어도 README의 상대 이미지 경로와 공개 프로젝트 링크는 동작합니다.
-현재 연결 앱은 저장소 이름 변경·계정 소개·대표 저장소 고정 기능을 지원하지 않습니다.
+공개 저장소 `firstsm41/firstsm41`의 기본 브랜치 README가 계정 Overview에 표시됩니다.
+프로필: https://github.com/firstsm41
+설정: https://github.com/firstsm41/firstsm41/settings
 
 ## 2. 대표 저장소 고정
 
